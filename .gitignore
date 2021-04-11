@@ -1,0 +1,104 @@
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+**/.idea/*
+!.idea/codeStyleSettings.xml
+!.idea/codeStyles
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+/out
+
+######################
+# VSCode
+######################
+**/.vscode/*
+
+######################
+# Maven
+######################
+/log/
+**/target/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.DS_Store
+
+######################
+# Directories
+######################
+node_modules
+public
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+.env
+.env.local
